@@ -6,12 +6,12 @@
 - --delete
 - --rc
 - --rmc
-- **--rm** (highlighted)
+- **--rm**
   
   The answer is `--rm`
 
 ### Q2: What is the version of the package wheel?
-- **0.42.0** (highlighted)
+- **0.42.0** 
 - 1.0.0
 - 23.0.1
 - 58.1.0
