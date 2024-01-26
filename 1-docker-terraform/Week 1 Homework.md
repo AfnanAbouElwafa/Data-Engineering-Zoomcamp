@@ -29,3 +29,5 @@ wheel      0.42.0
 ```
 
 ## Prepare Postgres
+
+I ingested the green taxi trips from September 2019 data using [ingest_green_data.py](https://github.com/AfnanAbouElwafa/Data-Engineering-Zoomcamp/blob/main/1-docker-terraform/ingest_green_data.py).
