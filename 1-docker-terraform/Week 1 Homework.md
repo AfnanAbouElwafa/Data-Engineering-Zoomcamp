@@ -31,3 +31,10 @@ wheel      0.42.0
 ## Prepare Postgres
 
 I ingested the green taxi trips from September 2019 data using [ingest_green_data.py](https://github.com/AfnanAbouElwafa/Data-Engineering-Zoomcamp/blob/main/1-docker-terraform/ingest_green_data.py).
+
+
+Also, ingested the zones data using [ingest_zone_data.ipynb]
+(https://github.com/AfnanAbouElwafa/Data-Engineering-Zoomcamp/blob/main/1-docker-terraform/ingest_zone_data.ipynb).
+
+
+### Q3: How many taxi trips were totally made on September 18th 2019?
