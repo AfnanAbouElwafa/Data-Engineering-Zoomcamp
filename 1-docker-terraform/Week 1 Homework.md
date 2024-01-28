@@ -36,6 +36,7 @@ I ingested the green taxi trips from September 2019 data using [ingest_green_dat
 Also, ingested the zones data using [ingest_zone_data.ipynb](https://github.com/AfnanAbouElwafa/Data-Engineering-Zoomcamp/blob/main/1-docker-terraform/ingest_zone_data.ipynb).
 
 
+
 ### Q3: How many taxi trips were totally made on September 18th, 2019?
 - 15767
 - **15612** 
@@ -55,6 +56,7 @@ WHERE
 ```
 
 
+
 ### Q4: Which was the pickup day with the largest trip distance?
 - 2019-09-18
 - 2019-09-16
@@ -72,6 +74,7 @@ ORDER BY
     trip_distance DESC
 LIMIT 1;
 ```
+
 
 
 ### Q5: Consider lpep_pickup_datetime in '2019-09-18' and ignoring Borough has Unknown. Which were the 3 pick-up boroughs that had a sum of total_amount superior to 50000?
@@ -97,6 +100,8 @@ GROUP BY
 HAVING
     SUM(total_amount) > 50000;
 ```
+
+
 
 ### Q6: For the passengers picked up in September 2019 in the zone named Astoria, which was the drop-off zone that had the largest tip?
 - Central Park
