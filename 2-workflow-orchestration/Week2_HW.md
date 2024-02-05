@@ -36,4 +36,6 @@ Once the dataset is loaded, what's the shape of the data?
 * 133,744 rows x 20 columns
 
   The answer is `266,855 rows x 20 columns`
+
+
   The data loader block is available here
