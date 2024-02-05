@@ -1,6 +1,6 @@
 ## Week 2 Homework
 
-Data: the _green_ taxi dataset located here:
+Data: **the _green_ taxi dataset** located here:
 
 `https://github.com/DataTalksClub/nyc-tlc-data/releases/download/green`
 
