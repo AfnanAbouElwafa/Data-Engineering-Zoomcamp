@@ -35,10 +35,10 @@ Once the dataset is loaded, what's the shape of the data?
 * 544,898 rows x 20 columns
 * 133,744 rows x 20 columns
 
-  The answer is `266,855 rows x 20 columns`
+The answer is `266,855 rows x 20 columns`
 
 
-  The data loader block is available here [load_data.py](https://github.com/AfnanAbouElwafa/Data-Engineering-Zoomcamp/blob/main/2-workflow-orchestration/load_data.py).
+The data loader block is available here [load_data.py](https://github.com/AfnanAbouElwafa/Data-Engineering-Zoomcamp/blob/main/2-workflow-orchestration/load_data.py).
 
 
 ## Question 2. Data Transformation
@@ -50,7 +50,9 @@ Upon filtering the dataset where the passenger count is equal to 0 _or_ the trip
 * `139,370 rows`
 * 266,856 rows
 
-  The answer is `139,370 rows`
+The answer is `139,370 rows`
+
+The data loader block is available here [transform_data.py](https://github.com/AfnanAbouElwafa/Data-Engineering-Zoomcamp/blob/main/2-workflow-orchestration/transform_data.py).
 
 ```python
 @transformer
