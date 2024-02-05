@@ -39,3 +39,28 @@ Once the dataset is loaded, what's the shape of the data?
 
 
   The data loader block is available here [load_data.py](https://github.com/AfnanAbouElwafa/Data-Engineering-Zoomcamp/blob/main/2-workflow-orchestration/load_data.py).
+
+
+## Question 2. Data Transformation
+
+Upon filtering the dataset where the passenger count is equal to 0 _or_ the trip distance is equal to zero, how many rows are left?
+
+* 544,897 rows
+* 266,855 rows
+* `139,370 rows`
+* 266,856 rows
+
+  The answer is `139,370 rows`
+
+```python
+@transformer
+def transform(data, *args, **kwargs):
+    
+    # Remove rows where the passenger count is equal to 0
+    tf_data = data[data['passenger_count'] > 0]
+
+    # Remove rows where the trip distance is equal to zero
+    tf_data = tf_data[tf_data['trip_distance'] > 0]
+
+    return tf_data
+```
