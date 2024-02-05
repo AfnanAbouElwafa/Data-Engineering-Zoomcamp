@@ -115,4 +115,26 @@ How many columns need to be renamed to snake case?
 * 3
 * 6
 * 2
-* 4
+* `4`
+
+      The answer is `4`
+
+```python
+    #Count how many columns need to be renamed to snake case
+    c = 0
+    for col in tf_data.columns:
+        if '_' not in col and col[0].isupper():
+            print(col)
+            c+=1
+    print(f"{c} columns need to be renamed to snake case")
+```
+
+Columns:
+
+- VendorID
+
+- RatecodeID
+
+- PULocationID
+
+- DOLocationID
