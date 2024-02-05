@@ -64,3 +64,39 @@ def transform(data, *args, **kwargs):
 
     return tf_data
 ```
+
+## Question 3. Data Transformation
+
+Which of the following creates a new column `lpep_pickup_date` by converting `lpep_pickup_datetime` to a date?
+
+* data = data['lpep_pickup_datetime'].date
+* data('lpep_pickup_date') = data['lpep_pickup_datetime'].date
+* `data['lpep_pickup_date'] = data['lpep_pickup_datetime'].dt.date`
+* data['lpep_pickup_date'] = data['lpep_pickup_datetime'].dt().date()
+
+    The answer is `data['lpep_pickup_date'] = data['lpep_pickup_datetime'].dt.date`
+
+```python
+@transformer
+def transform(data, *args, **kwargs):
+    
+    # Remove rows where the passenger count is equal to 0
+    tf_data = data[data['passenger_count'] > 0]
+
+    # Remove rows where the trip distance is equal to zero
+    tf_data = tf_data[tf_data['trip_distance'] > 0]
+
+    # Create a new column lpep_pickup_date by converting lpep_pickup_datetime to a date.
+    tf_data['lpep_pickup_date'] = tf_data['lpep_pickup_datetime'].dt.date
+
+    return tf_data
+```
+
+## Question 4. Data Transformation
+
+What are the existing values of `VendorID` in the dataset?
+
+* 1, 2, or 3
+* 1 or 2
+* 1, 2, 3, 4
+* 1
