@@ -30,7 +30,10 @@ The goal will be to construct an ETL pipeline that loads the data, performs some
 
 Once the dataset is loaded, what's the shape of the data?
 
-* 266,855 rows x 20 columns
+* **266,855 rows x 20 columns**
 * 544,898 rows x 18 columns
 * 544,898 rows x 20 columns
 * 133,744 rows x 20 columns
+
+  The answer is `266,855 rows x 20 columns`
+  The data loader block is available here
