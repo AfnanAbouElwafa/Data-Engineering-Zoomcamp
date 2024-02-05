@@ -76,7 +76,7 @@ Which of the following creates a new column `lpep_pickup_date` by converting `lp
 * `data['lpep_pickup_date'] = data['lpep_pickup_datetime'].dt.date`
 * data['lpep_pickup_date'] = data['lpep_pickup_datetime'].dt().date()
 
-    The answer is `data['lpep_pickup_date'] = data['lpep_pickup_datetime'].dt.date`
+The answer is `data['lpep_pickup_date'] = data['lpep_pickup_datetime'].dt.date`
 
 ```python
 @transformer
@@ -103,7 +103,7 @@ What are the existing values of `VendorID` in the dataset?
 * 1, 2, 3, 4
 * 1
 
-    The answer is `1 or 2`
+The answer is `1 or 2`
 
 ```python
 #the existing values of VendorID in the dataset
@@ -119,7 +119,7 @@ How many columns need to be renamed to snake case?
 * 2
 * `4`
 
-  The answer is `4`
+The answer is `4`
 
 ```python
     #Count how many columns need to be renamed to snake case
