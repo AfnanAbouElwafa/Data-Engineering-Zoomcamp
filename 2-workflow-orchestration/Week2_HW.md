@@ -52,7 +52,7 @@ Upon filtering the dataset where the passenger count is equal to 0 _or_ the trip
 
 The answer is `139,370 rows`
 
-The data loader block is available here [transform_data.py](https://github.com/AfnanAbouElwafa/Data-Engineering-Zoomcamp/blob/main/2-workflow-orchestration/transform_data.py).
+The data transformer block is available here [transform_data.py](https://github.com/AfnanAbouElwafa/Data-Engineering-Zoomcamp/blob/main/2-workflow-orchestration/transform_data.py).
 
 ```python
 @transformer
