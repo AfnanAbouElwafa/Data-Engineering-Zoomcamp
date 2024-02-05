@@ -97,6 +97,22 @@ def transform(data, *args, **kwargs):
 What are the existing values of `VendorID` in the dataset?
 
 * 1, 2, or 3
-* 1 or 2
+* `1 or 2`
 * 1, 2, 3, 4
 * 1
+
+    The answer is `1 or 2`
+
+```python
+#the existing values of VendorID in the dataset
+    print(tf_data['VendorID'].unique().tolist())
+```
+
+## Question 5. Data Transformation
+
+How many columns need to be renamed to snake case?
+
+* 3
+* 6
+* 2
+* 4
