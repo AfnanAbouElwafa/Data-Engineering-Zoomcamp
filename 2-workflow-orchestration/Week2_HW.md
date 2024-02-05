@@ -117,7 +117,7 @@ How many columns need to be renamed to snake case?
 * 2
 * `4`
 
-      The answer is `4`
+  The answer is `4`
 
 ```python
     #Count how many columns need to be renamed to snake case
