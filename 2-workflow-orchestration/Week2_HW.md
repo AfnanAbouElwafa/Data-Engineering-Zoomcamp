@@ -135,4 +135,13 @@ Columns: VendorID, RatecodeID, PULocationID, DOLocationID
 
 Write the dataset to a table called `green_taxi` in a schema `mage`. Replace the table if it already exists.
 
-The data exporter block is available here [export_data.py](https://github.com/AfnanAbouElwafa/Data-Engineering-Zoomcamp/blob/main/2-workflow-orchestration/transform_data.py).
+The data exporter block is available here [export_data.py](https://github.com/AfnanAbouElwafa/Data-Engineering-Zoomcamp/blob/main/2-workflow-orchestration/export_data.py).
+
+## Question 6. Data Exporting
+
+Once exported, how many partitions (folders) are present in Google Cloud?
+
+* 96
+* 56
+* 67
+* 108
