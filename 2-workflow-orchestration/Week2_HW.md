@@ -129,12 +129,10 @@ The answer is `4`
     print(f"{c} columns need to be renamed to snake case")
 ```
 
-Columns:
+Columns: VendorID, RatecodeID, PULocationID, DOLocationID
 
-- VendorID
+## Data Exporting to PostgreSQL
 
-- RatecodeID
+Write the dataset to a table called `green_taxi` in a schema `mage`. Replace the table if it already exists.
 
-- PULocationID
-
-- DOLocationID
+The data exporter block is available here [export_data.py](https://github.com/AfnanAbouElwafa/Data-Engineering-Zoomcamp/blob/main/2-workflow-orchestration/transform_data.py).
