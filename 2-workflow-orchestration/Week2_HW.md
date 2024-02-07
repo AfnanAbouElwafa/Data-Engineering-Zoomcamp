@@ -137,6 +137,14 @@ Write the dataset to a table called `green_taxi` in a schema `mage`. Replace the
 
 The data exporter block is available here [export_data.py](https://github.com/AfnanAbouElwafa/Data-Engineering-Zoomcamp/blob/main/2-workflow-orchestration/export_data.py).
 
+#Data Loader block to test if the data was exported correctly 
+
+```sql
+SELECT *
+FROM mage.green_taxi
+LIMIT 5
+```
+
 ## Question 6. Data Exporting
 
 Once exported, how many partitions (folders) are present in Google Cloud?
