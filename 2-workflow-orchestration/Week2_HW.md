@@ -149,7 +149,10 @@ LIMIT 5
 
 Once exported, how many partitions (folders) are present in Google Cloud?
 
-* 96
+* `96`
 * 56
 * 67
 * 108
+
+The answer is `96`
+The data exporter block to GSC is available here [transform_data.py](https://github.com/AfnanAbouElwafa/Data-Engineering-Zoomcamp/blob/main/2-workflow-orchestration/transform_data.py).
