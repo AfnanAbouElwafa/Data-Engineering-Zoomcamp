@@ -155,4 +155,5 @@ Once exported, how many partitions (folders) are present in Google Cloud?
 * 108
 
 The answer is `96`
-The data exporter block to GSC is available here [taxi_to_gcs_partitioned_parquet.py](https://github.com/AfnanAbouElwafa/Data-Engineering-Zoomcamp/blob/main/2-workflow-orchestration/taxi_to_gcs_partitioned_parquet.py).
+
+The data exporter block to Google Cloud Storage (GCS) is available here [taxi_to_gcs_partitioned_parquet.py](https://github.com/AfnanAbouElwafa/Data-Engineering-Zoomcamp/blob/main/2-workflow-orchestration/taxi_to_gcs_partitioned_parquet.py).
