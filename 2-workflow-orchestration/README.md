@@ -9,4 +9,4 @@
 
 4- Export data to GCP.
 
-5- Write data to Google BigQuery.
+5- Export data to Google BigQuery.
