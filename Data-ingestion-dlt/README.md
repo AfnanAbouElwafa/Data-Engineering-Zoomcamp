@@ -18,3 +18,11 @@ The answer is `8.382332347441762`
 - **D**: 5.678551275463989
 
 The answer is `3.605551275463989`
+
+### Question 3: Append the 2 generators. After correctly appending the data, calculate the sum of all ages of people.
+- **A**: `353`
+- **B**: 365
+- **C**: 378
+- **D**: 390
+
+The answer is `353`
