@@ -1,4 +1,5 @@
 # Data ingestion with dlt
+[data extraction and ingestion.ipynb](https://github.com/AfnanAbouElwafa/Data-Engineering-Zoomcamp/blob/main/Data-ingestion-dlt/data_extraction_and_ingestion.ipynb).
 
 ### Questions
 
