@@ -26,3 +26,11 @@ The answer is `3.605551275463989`
 - **D**: 390
 
 The answer is `353`
+
+### Question 4: Merge the 2 generators using the ID column. Calculate the sum of ages of all the people loaded as described above.
+- **A**: 215
+- **B**: `266`
+- **C**: 241
+- **D**: 258
+
+The answer is `266`
